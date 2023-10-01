@@ -1,0 +1,106 @@
+/* HOVERS */
+
+nav img:hover {
+  transform: rotateY(180deg);
+}
+
+nav ul a:hover {
+  text-decoration: underline;
+}
+
+nav .contact-btn:hover {
+  border: 2px solid black;
+}
+
+.ph-list:hover {
+  cursor: pointer;
+}
+
+/* HOVERS */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 80px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.85);
+}
+nav a {
+  color: black;
+  text-decoration: none;
+}
+nav img {
+  width: 50px;
+  transition: 0.3s ease-out;
+}
+.ph-list {
+  font-size: 30px;
+}
+nav ul {
+  display: none;
+}
+.contact-btn {
+  display: none;
+  font-family: "Caveat", cursive;
+  font-size: 22px;
+}
+
+@media (min-width: 905px) {
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+    gap: 120px;
+  }
+  .contact-btn {
+    display: block;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .ph-list {
+    display: none;
+  }
+  .contact-btn {
+    width: 220px;
+    height: 40px;
+    text-decoration: none;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 50px;
+  }
+}
+
+@media (min-width: 1440px) {
+  nav {
+    height: 120px;
+    padding: 0 50px;
+  }
+  nav img {
+    height: 100px;
+    width: auto;
+  }
+  nav ul {
+    font-size: 24px;
+  }
+  .contact-btn {
+    width: 250px;
+    height: 70px;
+    text-decoration: none;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 50px;
+    font-size: 32px;
+  }
+}

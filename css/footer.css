@@ -1,0 +1,151 @@
+footer {
+    padding-top: 50px;
+    background: #FFFBF0;
+}
+.container-footer {
+    height: 350px;
+    border-top: 4px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+.title-footer {
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-size: 35px;
+}
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+footer li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+footer li img {
+    width: 65px;
+}
+.absolute-footer {
+    position: absolute;
+}
+.img-decoration-footer {
+    top: -100px;
+    right: 0;
+    width: 125px;
+}
+.img-linkedin {
+    bottom: 20px;
+    left: 10%;
+}
+.img-linkedin img {
+    width: 45px;
+}
+
+@media (min-width: 600px) {
+    footer {
+        padding-top: 100px;
+    }
+    .container-footer {
+        height: 450px;
+    }
+    .title-footer {
+        font-size: 45px;
+        top: 40px;
+    }
+    footer li {
+        font-size: 18px;
+    }
+    footer li img {
+        width: 80px;
+    }
+    .img-decoration-footer {
+        width: 150px;
+        top: -120px;
+    }
+    .img-linkedin {
+        left: 15%;
+    }
+    .img-linkedin img {
+        width: 60px;
+    }
+}
+
+@media (min-width: 905px) {
+    .container-footer {
+        height: 500px;
+    }
+    .title-footer {
+        font-size: 55px;
+        top: 50px;
+    }
+    footer ul {
+        margin-top: 30px;
+    }
+    footer li {
+        font-size: 22px;
+    }
+    footer li img {
+        width: 100px;
+    }
+    .img-decoration-footer {
+        width: 250px;
+        top: -100px;
+    }
+    .img-linkedin {
+        left: 50px;
+        bottom: 30px;
+    }
+    .img-linkedin img {
+        width: 80px;
+    }
+}
+
+@media (min-width: 1280px) {
+    footer {
+        padding-top: 150px;
+    }
+    .title-footer {
+        font-size: 60px;
+    }
+    footer ul {
+        margin-top: 40px;
+    }
+    .img-decoration-footer {
+        width: 350px;
+    }
+}
+
+@media (min-width: 1440px) {
+    footer {
+        padding-top: 250px;
+    }
+    .container-footer {
+        height: 600px;
+    }
+    .title-footer {
+        font-size: 65px;
+        top: 70px;
+    }
+    footer ul {
+        margin-top: 50px;
+    }
+    footer li {
+        font-size: 24px;
+    }
+    footer li img {
+        width: 120px;
+    }
+    .img-decoration-footer {
+        width: 475px;
+        top: -120px;
+    }
+}

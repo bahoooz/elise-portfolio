@@ -1,0 +1,61 @@
+/* HOVERS */
+
+.contact-btn-burger-menu:hover {
+  border: 2px solid black;
+  text-decoration: none !important;
+}
+.burger-menu a:hover {
+  text-decoration: underline;
+}
+.ph-x:hover {
+  cursor: pointer;
+}
+
+/* HOVERS */
+
+.burger-menu {
+  position: fixed;
+  width: 50%;
+  height: 100dvh;
+  right: 0;
+  background: white;
+  z-index: 2;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.burger-menu ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  text-align: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.burger-menu a {
+  text-decoration: none;
+  color: black;
+}
+.contact-btn-burger-menu {
+  width: 85%;
+  height: 40px;
+  text-decoration: none;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border-radius: 50px;
+  margin-top: 100px;
+}
+.img-burger-menu {
+  position: absolute;
+  bottom: 10px;
+  width: 100px;
+}
+.ph-x {
+  position: absolute;
+  font-size: 30px;
+  right: 20px;
+  top: 20px;
+}

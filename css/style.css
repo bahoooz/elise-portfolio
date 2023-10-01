@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+
+@font-face {
+  font-family: 'Outward';
+  src: url('outward-block-webfont.eot');
+  src: url('outward-block-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../assets/font/Outward/outward-block-webfont.woff2') format('woff2'),
+       url('../assets/font/Outward/outward-block-webfont.woff') format('woff'),
+       url('../assets/font/Outward/outward-block-webfont.ttf') format('truetype'),
+       url('../assets/font/Outward/outward-block-webfont.svg#outwardblock') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Outward';
+  src: url('../assets/font/Outward/outward-borders-webfont.eot');
+  src: url('../assets/font/Outward/outward-borders-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../assets/font/Outward/outward-borders-webfont.woff2') format('woff2'),
+       url('../assets/font/Outward/outward-borders-webfont.woff') format('woff'),
+       url('../assets/font/Outward/outward-borders-webfont.ttf') format('truetype'),
+       url('../assets/font/Outward/outward-borders-webfont.svg#outwardborders') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Outward';
+  src: url('../assets/font/Outward/outward-round-webfont.eot');
+  src: url('../assets/font/Outward/outward-round-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../assets/font/Outward/outward-round-webfont.woff2') format('woff2'),
+       url('../assets/font/Outward/outward-round-webfont.woff') format('woff'),
+       url('../assets/font/Outward/outward-round-webfont.ttf') format('truetype'),
+       url('../assets/font/Outward/outward-round-webfont.svg#outwardround') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}

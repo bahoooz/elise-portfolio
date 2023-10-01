@@ -1,0 +1,122 @@
+/* HOVERS */
+
+.container-posters img:hover {
+    transform: rotateX(360deg);
+    cursor: pointer;
+}
+
+/* HOVERS */
+
+#posters {
+    padding: 100px 0 150px;
+    position: relative;
+    background: #FFFBF0;
+    height: fit-content;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+.img-container img {
+    width: 90%;
+}
+.container-posters {
+    margin-top: 50px;
+    height: 300px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 50px;
+    padding: 0 50px 10px;
+    position: relative;
+}
+.container-posters::-webkit-scrollbar {
+    height: 8px;
+}
+.container-posters::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 6px;
+}
+.container-posters img {
+    height: 100%;
+    transition: 1s ease-out;
+}
+.decoration-img-poster {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    bottom: 0;
+    left: 80px;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 600px) {
+    .img-container img {
+        width: 500px;
+    }
+    .container-posters {
+        height: 500px;
+        margin-top: 75px;
+        gap: 70px;
+    }
+    .decoration-img-poster {
+        width: 200px;
+        height: 200px;
+        left: 100px;
+        bottom: -80px;
+    }
+}
+
+@media (max-width: 904px) {
+    .img-container .desktop-img {
+        display: none;
+    }
+}
+
+@media (min-width: 905px) {
+    .img-container img {
+        width: 700px;
+    }
+    .container-posters {
+        height: 600px;
+        margin-top: 100px;
+        gap: 100px;
+    }
+    .img-container .desktop-img {
+        display: block;
+    }
+    .img-container .mobile-img {
+        display: none;
+    }
+}
+
+@media (min-width: 1280px) {
+    #posters {
+        padding: 150px 0 150px;
+        background: #FFFBF0;
+    }
+    .img-container img {
+        width: 800px;
+    }
+    .container-posters {
+        height: 700px;
+        gap: 125px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .decoration-img-poster {
+        width: 300px;
+        height: 300px;
+        left: 200px;
+        bottom: -200px;
+    }
+    .img-container img {
+        width: 900px;
+    }
+    .container-posters {
+        height: 900px;
+        margin-top: 100px;
+        gap: 125px;
+        padding: 0 125px 10px;
+    }
+}
