@@ -10,7 +10,7 @@
 #posters {
     padding: 100px 0 150px;
     position: relative;
-    background: #FFFBF0;
+    background: rgba(255, 251, 240);
     height: fit-content;
 }
 .img-container {
