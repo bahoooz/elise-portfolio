@@ -1,8 +1,8 @@
 /* HOVERS */
 
 .container-posters img:hover {
-    transform: rotateX(360deg);
     cursor: pointer;
+    transform: scale(0.9);
 }
 
 /* HOVERS */
@@ -38,7 +38,7 @@
 }
 .container-posters img {
     height: 100%;
-    transition: 1s ease-out;
+    transition: 0.3s ease-out;
 }
 .decoration-img-poster {
     position: absolute;
